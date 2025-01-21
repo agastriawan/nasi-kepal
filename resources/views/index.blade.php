@@ -3,18 +3,6 @@
 @section('template_styles')
 @endsection
 @section('content')
-    <div class="page-loader">
-        <div class="wrapper">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <span>Loading</span>
-        </div>
-    </div>
-
     <section class="hero-section" id="beranda" style="background-image: url(assets/img/background-1.png);">
         <div class="container">
             <div class="row align-items-center">

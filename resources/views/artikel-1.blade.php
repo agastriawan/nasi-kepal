@@ -3,17 +3,7 @@
 @section('template_styles')
 @endsection
 @section('content')
-    <div class="page-loader">
-        <div class="wrapper">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <span>Loading</span>
-        </div>
-    </div>
+ 
 
     <section class="hero-section about single-blog gap" style="background-image: url(assets/img/background-3.png);"
         data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
