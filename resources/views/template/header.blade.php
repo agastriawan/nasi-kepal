@@ -24,7 +24,7 @@
                 <nav class="navbar">
                     <ul class="navbar-links">
                         <li class="navbar-dropdown">
-                            <a href="#beranda">Beranda</a>
+                            <a href="{{ url('/') }}">Beranda</a>
                         </li>
                         <li class="navbar-dropdown">
                             <a href="#keunggulan">Keunggulan</a>
@@ -115,7 +115,7 @@
                 </div>
                 <ul>
                     <li class="navbar-dropdown active">
-                        <a href="#beranda">Beranda</a>
+                        <a href="{{ url('/') }}">Beranda</a>
                     </li>
                     <li class="navbar-dropdown">
                         <a href="#keunggulan">Keunggulan</a>

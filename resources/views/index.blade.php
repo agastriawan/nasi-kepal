@@ -27,10 +27,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="400">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="400"
+                    style="margin-bottom:7rem !important;">
                     <div class="img-restaurant">
                         <img alt="man" src="{{ asset('assets/img/hero5.png') }}">
-                        <div class="wilmington" style="margin-top:3rem !important;">
+                        <div class="wilmington" style="margin-top:6rem !important;">
                             <i id="lingkaran"></i>
                             <div>
                                 <p>praktis, enak, mengenyangkan</p>
@@ -60,7 +61,6 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="200" data-aos-duration="300">
                     <div class="work-card">
-                        {{-- <img alt="img" src=""> --}}
                         <h4><span>01</span> Ukuran Lebih Besar</h4>
                         <p>Nasi kepal kami hadir dengan porsi yang lebih besar untuk memastikan Anda kenyang dan puas. Cocok
                             untuk dinikmati kapan saja.</p>
@@ -68,7 +68,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
                     <div class="work-card">
-                        {{-- <img alt="img" src=""> --}}
                         <h4><span>02</span> Isi Lebih Beragam</h4>
                         <p>Kami menawarkan berbagai pilihan isi, mulai dari ayam teriyaki hingga tuna pedas. Rasakan
                             kelezatan setiap gigitan dengan bahan berkualitas.</p>
@@ -76,7 +75,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="400" data-aos-duration="500">
                     <div class="work-card">
-                        {{-- <img alt="img" src=""> --}}
                         <h4><span>03</span> Harga Terjangkau</h4>
                         <p>Kami memberikan nasi kepal berkualitas dengan harga yang ramah di kantong. Makan enak tidak harus
                             mahal!</p>
@@ -115,31 +113,28 @@
     <section class="counters-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="200"
-                    data-aos-duration="300">
+                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="200" data-aos-duration="300">
                     <div>
                         <h2>Solusi yang kami tawarkan</h2>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="300"
-                    data-aos-duration="400">
+                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
                     <div class="count-time">
                         <h2 class="timer count-title count-number" data-to="1" data-speed="2000">1</h2>
                         <p>Kepraktisan</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="400"
-                    data-aos-duration="500">
+                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="400" data-aos-duration="500">
                     <div class="count-time">
                         <h2 class="timer count-title count-number" data-to="2" data-speed="2000">2</h2>
                         <p>Kualitas Rasa</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="500"
-                    data-aos-duration="600">
-                    <div class="count-time sp">
-                        <h2 class="timer count-title count-number me-2" data-to="3" data-speed="2000">3</h2>
-                        <p>Harga Yang Terjangkau</p>
+                <div class="col-lg-3 col-md-6 col-sm-12" data-aos="flip-up" data-aos-delay="400"
+                    data-aos-duration="500">
+                    <div class="count-time">
+                        <h2 class="timer count-title count-number" data-to="3" data-speed="2000">3</h2>
+                        <p>Harga Murah</p>
                     </div>
                 </div>
             </div>
@@ -215,25 +210,27 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-12" data-aos="flip-up" data-aos-delay="200" data-aos-duration="300">
                     <div class="news-posts-one">
-                        <img alt="man" src="">
+                        <img alt="man" src="{{ asset('assets/img/title-1.jpg') }}">
                         <div class="quickeat">
-                            <a href="#">news</a>
-                            <a href="#">quickeat</a>
+                            <a href="#">Kewirausahaan</a>
                         </div>
-                        <h3>We Have Received An Award For The Quality Of Our Work</h3>
-                        <p>Donec adipiscing tristique risus nec feugiat in fermentum. Sapien eget mi proin sed libero.
-                            Et magnis dis parturient montes nascetur.
-                            Praesent semper feugiat nibh sed pulvinar proin gravida.</p>
-                        <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                        <a
+                            href="{{ url('artikel/menjadi-wirausaha-muda-bersama-mata-kuliah-kewirausahaan-nurul-fikri') }}">
+                            <h3>Menjadi Wirausaha Muda Bersama Mata Kuliah Kewirausahaan Nurul Fikri 2024
+                            </h3>
+                        </a>
+                        <p>Di era modern ini, kewirausahaan bukan lagi sekadar pilihan, melainkan kebutuhan. Sebagai
+                            mahasiswa, kita harus peka terhadap peluang dan terus berinovasi. Mata Kuliah Kewirausahaan di
+                            Nurul Fikri 2024 hadir sebagai solusi nyata bagi mahasiswa yang ingin memahami dan terjun
+                            langsung ke dunia bisnis. </p>
+                        <a href="{{ url('artikel/menjadi-wirausaha-muda-bersama-mata-kuliah-kewirausahaan-nurul-fikri') }}">Read
+                            More<i class="fa-solid fa-arrow-right"></i></a>
                         <ul class="data">
                             <li>
-                                <h6><i class="fa-solid fa-user"></i>by Quickeat</h6>
+                                <h6><i class="fa-solid fa-user"></i>by Vincent</h6>
                             </li>
                             <li>
-                                <h6><i class="fa-regular fa-calendar-days"></i>01.Jan. 2022</h6>
-                            </li>
-                            <li>
-                                <h6><i class="fa-solid fa-eye"></i>132</h6>
+                                <h6><i class="fa-regular fa-calendar-days"></i>01 Jan 2025</h6>
                             </li>
                         </ul>
 
@@ -241,72 +238,56 @@
                 </div>
                 <div class="col-xl-6 col-lg-12" data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
                     <div class="news-post-two">
-                        <img alt="food-img" src="">
+                        <img alt="food-img" height="200px" width="200px" src="{{ asset('assets/img/title-2.jpg') }}">
                         <div class="news-post-two-data">
                             <div class="quickeat">
-                                <a href="#">restaurants</a>
-                                <a href="#">cooking</a>
+                                <a href="#">Kewirausahaan</a>
                             </div>
-                            <h6><a href="single-blog.html">With Quickeat you can order food for
-                                    the whole day</a></h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor...</p>
+                            <h6><a href="{{ url('artikel/tantangan-dan-keseruan-di-mata-kuliah-kewirausahaan-nurul-fikri') }}">Tantangan dan Keseruan di Mata Kuliah Kewirausahaan Nurul Fikri
+                                    2024
+                                </a></h6>
                             <ul class="data">
                                 <li>
-                                    <h6><i class="fa-solid fa-user"></i>by Quickeat</h6>
+                                    <h6><i class="fa-solid fa-user"></i>by Vincent</h6>
                                 </li>
                                 <li>
-                                    <h6><i class="fa-regular fa-calendar-days"></i>01.Jan. 2022</h6>
-                                </li>
-                                <li>
-                                    <h6><i class="fa-solid fa-eye"></i>132</h6>
+                                    <h6><i class="fa-regular fa-calendar-days"></i>02 Jan 2025</h6>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="news-post-two">
-                        <img alt="food-img" src="">
+                        <img alt="food-img" height="200px" width="200px" src="{{ asset('assets/img/title-3.jpg') }}">
                         <div class="news-post-two-data">
                             <div class="quickeat">
-                                <a href="#">restaurants</a>
-                                <a href="#">cooking</a>
+                                <a href="#">Pengalaman Belajar</a>
                             </div>
-                            <h6><a href="single-blog.html">127+ Couriers On Our Team!</a></h6>
-                            <p>Urna condimentum mattis pellentesque id nibh tortor id aliquet. Tellus at urna
-                                condimentum mattis...</p>
+                            <h6><a href="{{ url('artikel/pengalaman-belajar-kewirausahaan-di-kampus-nurul-fikri') }}">Pengalaman Belajar Kewirausahaan di Kampus Nurul Fikri Bersama
+                                    Wulan Fitriani, S.Kom</a></h6>
                             <ul class="data">
                                 <li>
-                                    <h6><i class="fa-solid fa-user"></i>by Quickeat</h6>
+                                    <h6><i class="fa-solid fa-user"></i>by Vincent</h6>
                                 </li>
                                 <li>
-                                    <h6><i class="fa-regular fa-calendar-days"></i>01.Jan. 2022</h6>
-                                </li>
-                                <li>
-                                    <h6><i class="fa-solid fa-eye"></i>132</h6>
+                                    <h6><i class="fa-regular fa-calendar-days"></i>03 Jan 2025</h6>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="news-post-two end">
-                        <img alt="food-img" src="">
+                        <img alt="food-img" height="200px" width="200px" src="{{ asset('assets/img/title-4.jpg') }}">
                         <div class="news-post-two-data">
                             <div class="quickeat">
-                                <a href="#">restaurants</a>
-                                <a href="#">cooking</a>
+                                <a href="#">Pengalaman Belajar</a>
                             </div>
-                            <h6><a href="single-blog.html">Why You Should Optimize Your
-                                    Menu for Delivery</a></h6>
-                            <p>Enim lobortis scelerisque fermentum dui. Sit amet cursus sit amet dictum sit amet. Rutrum
-                                tellus...</p>
+                            <h6><a href="{{ url('artikel/membangun-jiwa-entrepreneur-bersama-kewirausahaan-nurul-fikri') }}">Membangun Jiwa Entrepreneur Bersama Kewirausahaan Nurul Fikri
+                                </a></h6>
                             <ul class="data">
                                 <li>
-                                    <h6><i class="fa-solid fa-user"></i>by Quickeat</h6>
+                                    <h6><i class="fa-solid fa-user"></i>by Vincent</h6>
                                 </li>
                                 <li>
-                                    <h6><i class="fa-regular fa-calendar-days"></i>01.Jan. 2022</h6>
-                                </li>
-                                <li>
-                                    <h6><i class="fa-solid fa-eye"></i>132</h6>
+                                    <h6><i class="fa-regular fa-calendar-days"></i>04 Jan 2025</h6>
                                 </li>
                             </ul>
                         </div>
